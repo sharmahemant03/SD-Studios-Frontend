@@ -11,7 +11,13 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      screens: {
+        xsm: "400px",
+        md:"1000px"
+      },
     },
   },
-  plugins: [],
+  plugins: [
+    require('daisyui'),
+  ],
 };
