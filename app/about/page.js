@@ -2,7 +2,7 @@ import React from 'react'
 import Footer from '../Footer';
 import Image from 'next/image';
 
-const page = () => {
+const About = () => {
   const values=[
     {
       icon:"❤️",
@@ -170,12 +170,7 @@ const page = () => {
           We can't wait to chat with you and bring your ideas to life.
         </p>
  
-        <a
-          href="#contact"
-          className="inline-block bg-indigo-600 hover:bg-indigo-700 text-white font-medium py-3 px-8 rounded-lg shadow-md transition duration-300"
-        >
-          Reach Out
-        </a>
+        
       </div>
     </div>
 
@@ -189,4 +184,4 @@ const page = () => {
   )
 }
 
-export default page
+export default About
